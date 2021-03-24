@@ -1,3 +1,33 @@
 body {
-    color: cadetblue;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.main {
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top: -200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.title h1 {
+    font-size: 28px;
+}
+
+.desc p {
+    font-size: 14px;
+}
+
+.action {
+    text-align: center;
+    font-size: 14px;
+}
+
+.action a {
+    text-decoration: none;
 }
